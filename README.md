@@ -1,4 +1,5 @@
 # Next dapp starter kit
+
 This is a template meant to kickstart dapps.
 
 ![Next dapp starter kit](/public/next-dapp-starter-kit.png)
@@ -24,4 +25,18 @@ Run the development server:
 
 ```bash
 bun dev
+```
+
+## Deploy example on Cloudflare
+
+Set build command
+
+```bash
+npm install -g bun@1.0.6 && bun install && bun run build
+```
+
+Set build output directory
+
+```bash
+/dist
 ```
